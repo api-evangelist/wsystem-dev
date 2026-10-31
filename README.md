@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-wsystem-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://wsystem.dev/
+W System provides a comprehensive e‑invoicing API suite for software teams, supporting European standards such as EN 16931, Peppol, and XRechnung. The platform offers invoice validation, generation of UBL documents, buyer identifier lookup, and sandbox testing with signed receipts. It targets developers needing to integrate invoicing, ERP, or shop software to meet upcoming regulatory deadlines across Belgium, France, Germany, the UK and other EU markets.
+
+**Areas:** Company · E-invoicing · API · European · Compliance
+
+## wsystem-dev on APIs.io
+
+Everything profiled for wsystem-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/wsystem-dev/](https://apis.io/providers/wsystem-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [wsystem-dev Billing API](https://apis.io/apis/wsystem-dev/wsystem-dev-billing-api/) — The Billing API from wsystem-dev — 3 operation(s) for billing.
+- [wsystem-dev Company API](https://apis.io/apis/wsystem-dev/wsystem-dev-company-api/) — Official business-register lookup (FR, NO, FI, CZ, PL, EE; others via GLEIF LEI)
+- [wsystem-dev E Invoice API](https://apis.io/apis/wsystem-dev/wsystem-dev-e-invoice-api/) — EU e-invoice validation (EN 16931, XRechnung; UBL, CII, ZUGFeRD/Factur-X PDF) and creation (JSON -> UBL)
+- [wsystem-dev EORI API](https://apis.io/apis/wsystem-dev/wsystem-dev-eori-api/) — EU EORI customs number validation via the EC EOS service
+- [wsystem-dev Health API](https://apis.io/apis/wsystem-dev/wsystem-dev-health-api/) — The Health API from wsystem-dev — 1 operation(s) for health.
+- [wsystem-dev KYB API](https://apis.io/apis/wsystem-dev/wsystem-dev-kyb-api/) — VAT + registry + sanctions in one call with a pass/review/fail verdict
+- [wsystem-dev Sanctions API](https://apis.io/apis/wsystem-dev/wsystem-dev-sanctions-api/) — Name screening against EU, UN, OFAC SDN and UK sanctions lists (refreshed daily)
+- [wsystem-dev VAT API](https://apis.io/apis/wsystem-dev/wsystem-dev-vat-api/) — EU VAT number validation via VIES (27 EU states + XI Northern Ireland)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Wsystem Dev Agentic Access](https://apis.io/agentic-access/wsystem-dev/wsystem-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CheckoutReq](https://apis.io/schemas/wsystem-dev/wsystem-dev-checkout-req/)
+- [CompanyBatch](https://apis.io/schemas/wsystem-dev/wsystem-dev-company-batch/)
+- [DDReport](https://apis.io/schemas/wsystem-dev/wsystem-dev-ddreport/)
+- [KybCheck](https://apis.io/schemas/wsystem-dev/wsystem-dev-kyb-check/)
+- [MandateIn](https://apis.io/schemas/wsystem-dev/wsystem-dev-mandate-in/)
+- [SanctionsBatch](https://apis.io/schemas/wsystem-dev/wsystem-dev-sanctions-batch/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Wsystem Dev Context](https://apis.io/jsonld/wsystem-dev/wsystem-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [wsystem-dev API Rules](https://apis.io/rules/wsystem-dev/wsystem-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Wsystem Dev Authentication](https://apis.io/security/wsystem-dev/wsystem-dev-authentication/)
+- [Wsystem Dev Domain Security](https://apis.io/security/wsystem-dev/wsystem-dev-domain-security/)
+- [Wsystem Dev Vulnerability Disclosure](https://apis.io/security/wsystem-dev/wsystem-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Wsystem Dev Plans Pricing](https://apis.io/plans/wsystem-dev/wsystem-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://wsystem.dev/)
+- [Documentation](https://wsystem.dev/docs)
+- [API reference](https://api.wsystem.dev/docs)
+- [Pricing](https://api.wsystem.dev/billing/plans)
+- [Blog](https://wsystem.dev/blog)
+- [Security](https://wsystem.dev/security)
+- [Terms of service](https://wsystem.dev/terms)
+- [Privacy policy](https://wsystem.dev/legal/peppol-mandate-terms)
+- [GitHub](https://github.com/wsystemdev)
+- [Status](https://wsystem.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 56.4** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 60.0 |
+
+**Agent readiness 35.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/wsystem-dev/](https://apis.io/providers/wsystem-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for wsystem-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/wsystem-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
